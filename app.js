@@ -6,7 +6,7 @@
 // qabul qiladi.
 
 // function oyoqlar(tovuq, qoy, sigir) {
-//   return tovuq * 2 + qoy * 4 + sigir * 4;
+//   return (tovuq * 2) + (qoy * 4) + (sigir * 4);
 // }
 // console.log(oyoqlar(2, 3, 5));
 
@@ -143,7 +143,7 @@
 // keraglini funksiya qaytarib bersin.
 
 // function listMasofa(num) {
-//   return num * 10;
+//   return num * 10+100;
 // }
 
 // console.log(listMasofa(15));
