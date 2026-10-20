@@ -66,7 +66,7 @@
 // const tubSonlar = (num) => {
 //   if (num <= 1) return false;
 //   for (let i = 2; i < num; i++) {
-//     if (num % i === 0) return false;
+//     if (num % i == 0) return false;
 //   }
 //   return true;
 // };
@@ -143,7 +143,7 @@
 // keraglini funksiya qaytarib bersin.
 
 // function listMasofa(num) {
-//   return num * 10+100;
+//   return num * 10>100?num*10:100;
 // }
 
 // console.log(listMasofa(15));
@@ -172,7 +172,7 @@
 // yolg’on.
 
 // function lengthniTengla(str1, str2) {
-//   return str1.length === str2.length ? true : false;
+//   return str1.length === str2.length;
 // }
 // console.log(lengthniTengla("g", "er"));
 
